@@ -1,0 +1,5 @@
+listen: "127.0.0.1:18080"
+proxy_token: "TON_TOKEN"
+rules:
+  - from_host: "api.openai.com"
+    to_origin: "https://reverse-proxy-light.pages.com"
